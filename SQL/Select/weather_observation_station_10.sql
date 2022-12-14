@@ -1,4 +1,4 @@
-*/
+/*
 
 https://www.hackerrank.com/challenges/weather-observation-station-10/problem
 
@@ -22,7 +22,7 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 */
 
-#SOLUTION - MYSQL
+# SOLUTION - MYSQL
 
 SELECT DISTINCT CITY 
 FROM STATION 
