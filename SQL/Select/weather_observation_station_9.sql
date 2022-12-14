@@ -1,4 +1,4 @@
-*/
+/*
 
 https://www.hackerrank.com/challenges/weather-observation-station-9/problem
 
@@ -11,7 +11,7 @@ The STATION table is described as follows:
 +-------------+------------+
 | Field       |   Type     |
 +-------------+------------+
-| ID          | INTEGER    |
+| ID          | NUMBER     |
 | CITY        | VARCHAR(21)|
 | STATE       | VARCHAR(2) |
 | LAT_N       | NUMBER     |
@@ -26,7 +26,4 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 SELECT DISTINCT CITY 
 FROM STATION 
-WHERE 
-  SUBSTRING(CITY,1,1) NOT IN ('A','E','I','O','U') 
-  OR 
-  SUBSTRING(CITY,1,1) NOT IN ('a','e','i','o','u')
+WHERE LEFT(CITY,1) NOT IN ('a','e','i','o','u');
