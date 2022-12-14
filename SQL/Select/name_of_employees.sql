@@ -14,7 +14,7 @@ name	      STRING
 months	    INTEGER
 salary	    INTEGER
 
-/*
+*/
 
 # SOLUTION - MYSQL
 
