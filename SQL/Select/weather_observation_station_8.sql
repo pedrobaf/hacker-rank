@@ -10,7 +10,7 @@ The STATION table is described as follows:
 +-------------+------------+
 | Field       |   Type     |
 +-------------+------------+
-| ID          | INTEGER    |
+| ID          | NUMBER     |
 | CITY        | VARCHAR(21)|
 | STATE       | VARCHAR(2) |
 | LAT_N       | NUMBER     |
