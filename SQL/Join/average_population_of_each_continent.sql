@@ -46,6 +46,7 @@ Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
 */
 
 # SOLUTION - MYSQL
+# The FLOOR() function returns the largest integer value that is smaller than or equal to a number (arredonda o número)
 
 SELECT Country.Continent, FLOOR(AVG(City.Population))
 FROM Country
