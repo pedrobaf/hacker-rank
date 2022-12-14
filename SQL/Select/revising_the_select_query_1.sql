@@ -19,7 +19,7 @@ The CITY table is described as follows:
 +-------------+--------------+
  */
  
-# SOLUTION
+# SOLUTION - MYSQL
  
 SELECT *
 FROM CITY
